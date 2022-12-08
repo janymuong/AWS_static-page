@@ -1,6 +1,6 @@
 Deploy Static Website on AWS
 
-In this project, you will deploy a static website to AWS using S3, CloudFront, and IAM.
+This is a static website deployed to AWS using S3, CloudFront, and IAM.
 
 The files included are: 
 
@@ -23,3 +23,6 @@ https://static-page-145845390305-bucket.s3.us-east-2.amazonaws.com/index.html
 Screenshots Path in zip:
 /img
 all images in this directory, except travel-blog-bg.png, are snapshots of the 'steps'.
+
+Note:
+The endpoints up here in this README file only work for the period when the CloudFront CDN is running, along with other resources. Subsequent request after shutdown will fail.
