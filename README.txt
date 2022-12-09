@@ -20,9 +20,9 @@ http://static-page-145845390305-bucket.s3-website.us-east-2.amazonaws.com
 https://static-page-145845390305-bucket.s3.us-east-2.amazonaws.com/index.html
 
 
-Screenshots Path in zip:
-/img
+Screenshots Path in directory:
+`/img`
 all images in this directory, except travel-blog-bg.png, are snapshots of the 'steps'.
 
 Note:
-The endpoints up here in this README file only work for the period when the CloudFront CDN is running, along with other resources. Subsequent request after shutdown will fail.
+The endpoints up here in this README file only work for the period when the CloudFront CDN is running, along with other resources. Subsequent requests after shutdown will fail.
