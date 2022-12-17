@@ -25,4 +25,4 @@ Screenshots Path in directory:
 all images in this directory, except travel-blog-bg.png, are snapshots of the 'steps'.
 
 Note:
-The endpoints up here in this README file only work for the period when the CloudFront CDN is running, along with other resources. Subsequent requests after shutdown will fail.
+The endpoints up here in this README file only work for the period when the CloudFront CDN is running, along with other resources. Subsequent requests after shutdown/termination will fail.
